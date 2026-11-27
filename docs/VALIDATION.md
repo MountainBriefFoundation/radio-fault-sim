@@ -26,9 +26,12 @@ cancellation, crashes, stuck PTT, and feedback/line disagreement. Scenario calls
 also pass with file opening, sockets, child processes, and real-time sleeping
 guarded against use.
 
-The GitHub workflow is configured to repeat tests and examples on Linux, macOS,
-and Windows with Python 3.11 and 3.14. Workflow results are separate evidence;
-the table above records the completed local checks and makes no Windows claim.
+The reviewed candidate passed all six Linux, macOS, and Windows jobs with
+Python 3.11 and 3.14 in [GitHub CI run 45928199179](https://github.com/MountainBriefFoundation/radio-fault-sim/actions/runs/45928199179).
+The table above records the separate local checks. The release changes license
+and documentation files and package metadata; its runtime model and tests are
+unchanged from that candidate. The workflow repeats tests and examples for new
+commits.
 
 No tests opened a radio, hardware interface, live TNC connection, or external
 service. Passing tests establish the documented toy model and packaging

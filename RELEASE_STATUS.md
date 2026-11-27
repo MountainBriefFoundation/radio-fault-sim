@@ -1,17 +1,18 @@
 # Release status
 
-Version 0.1.0 is a private candidate prepared for review. No public license is
-granted and no public release is authorized by this file.
+Version 0.1.0 is licensed under Apache-2.0. Copyright in the assigned materials
+is held by Mountain Brief LLC; Mountain Brief Foundation maintains this project.
+The scoped assignment was completed on November 26, 2026. The executed legal
+record is retained privately and is not part of this repository.
 
-The selected ownership arrangement is Company ownership with Foundation
-stewardship. The previously executed packet-radio copyright assignment lists
-specific codec snapshots and excludes unrelated gateway code and later work.
-This simulator therefore needs its own signed addition to that record. The
-proposed addition identifies the original source and this standalone snapshot;
-it does not transfer unrelated MB code, patents, trademarks, or future work.
+The runtime model, scenarios, example, and tests are unchanged from reviewed
+candidate commit `7560571960d5ee4b730a3fa4bb1ab1e9c5515699`. The release finalizes
+the license, notices, package metadata, and publication documentation.
 
-Apache-2.0 is the proposed public license. After the ownership record and public
-release decision are complete, finalize LICENSE, NOTICE, package license
-metadata, and the README release status in a reviewed release commit. Record
-that release commit and the executed assignment together. A private candidate
-or a passing simulation test does not itself perform either step.
+This project contains a generic controller fault model. It does not include MB
+operational gateway code, scheduling or alert policies, deployment configuration,
+live logs, resident data, or private source history. See [README](README.md),
+[provenance](PROVENANCE.md), and [validation](docs/VALIDATION.md) for its scope.
+
+The package is distributed through this repository's versioned releases. It is
+not published to PyPI.

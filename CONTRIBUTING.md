@@ -17,5 +17,8 @@ controller integrations, and comparisons with real measurements that clearly
 identify hardware and configuration. Keep hardware adapters separately scoped.
 Do not present a simulated result as physical validation.
 
-This private candidate is not yet open for public contributions. A public
-contribution and licensing policy will accompany an approved release.
+Contributions are welcome through GitHub issues and pull requests. Unless
+explicitly stated otherwise, contributions intentionally submitted for inclusion
+are provided under Apache-2.0, as described in section 5 of LICENSE. Submit only
+material you have the right to contribute and preserve applicable third-party
+notices.

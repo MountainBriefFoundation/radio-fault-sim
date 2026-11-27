@@ -3,7 +3,7 @@
 A small Python toolkit for testing how controller code reacts to queued writes,
 partial writes, stuck push-to-talk (PTT), crashes, and misleading feedback.
 
-**Private release candidate 0.1.0 · Python 3.11+ · No runtime dependencies**
+**Version 0.1.0 · Python 3.11+ · Apache-2.0 · No runtime dependencies**
 
 The model runs in process with an explicit clock. It opens no radio, serial
 device, socket, or audio stream. A modeled PTT line and reported feedback are
@@ -78,7 +78,6 @@ See [model behavior](docs/MODEL.md), [scenario results](docs/SCENARIOS.md),
 
 ## Project and license
 
-Prepared for stewardship by Mountain Brief Foundation. This candidate is private
-and has no public license grant. Apache-2.0 is the proposed release license after
-the selected ownership record and release decision are complete. See
-[release status](RELEASE_STATUS.md) and [LICENSE](LICENSE).
+Maintained by Mountain Brief Foundation. Copyright 2026 Mountain Brief LLC.
+Released under the Apache License, Version 2.0. See [LICENSE](LICENSE),
+[NOTICE](NOTICE), and [release status](RELEASE_STATUS.md).

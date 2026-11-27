@@ -7,7 +7,7 @@ Caller-owned lists of snapshots and any future adapters need their own limits.
 
 Report suspected security issues privately to stijn@mountainbrief.com. Include a
 minimal synthetic reproduction and package version, without operational data
-or secrets. No response-time commitment is implied by this candidate.
+or secrets. No response-time commitment is implied.
 
 The examples are fault demonstrations. Their output does not establish radio
 authorization, electrical interlocking, watchdog behavior, delivery, or safety
